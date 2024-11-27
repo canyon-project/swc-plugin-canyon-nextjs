@@ -36,6 +36,12 @@ importers:
       postcss:
         specifier: ^8
         version: 8.4.49
+      swc-plugin-canyon:
+        specifier: 0.0.2-alpha.30
+        version: 0.0.2-alpha.30
+      swc-plugin-coverage-instrument:
+        specifier: ^0.0.25
+        version: 0.0.25
       tailwindcss:
         specifier: ^3.4.1
         version: 3.4.15
@@ -1539,6 +1545,12 @@ packages:
   supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  swc-plugin-canyon@0.0.2-alpha.30:
+    resolution: {integrity: sha512-ILLQETmg8JfSoC9RXkIT/RbIbVprwQWBa3B7HWvjWoV3Wm1BX/Ei4/4teB36wmbDgEVDwpljDxc5Zv+k2t9rUw==}
+
+  swc-plugin-coverage-instrument@0.0.25:
+    resolution: {integrity: sha512-7watbzeySulr+7o3NbSaD2icOmEYBKf1uUQs2sBYv1cdWHEsUQETxI/CpXn+Q53vaBU0e3puWPO99OW3DVq34g==}
 
   tailwindcss@3.4.15:
     resolution: {integrity: sha512-r4MeXnfBmSOuKUWmXe6h2CcyfzJCEk4F0pptO5jlnYSIViUkVmsawj80N5h2lO3gwcmSb4n3PuN+e+GC1Guylw==}
@@ -3322,6 +3334,10 @@ snapshots:
       has-flag: 4.0.0
 
   supports-preserve-symlinks-flag@1.0.0: {}
+
+  swc-plugin-canyon@0.0.2-alpha.30: {}
+
+  swc-plugin-coverage-instrument@0.0.25: {}
 
   tailwindcss@3.4.15:
     dependencies:
